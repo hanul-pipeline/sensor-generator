@@ -1,4 +1,10 @@
-from my_module import sensor_404
+import os, sys
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+module_dir = os.path.join(current_dir, f'../../lib/sensors')
+sys.path.append(module_dir)
+
+from type_100 import sensor_100
 import requests
 
 # URL 및 데이터 설정
@@ -7,7 +13,7 @@ url = "http://example.com/api"
 # 헤더 설정
 headers = {"Content-Type": "application/json"}
 
-for status in sensor_404():
+for status in sensor_100():
     nowdate = status["nowdate"]
     nowtime = status["nowtime"]
     loc_nm = status["location"]["name"]
@@ -38,6 +44,8 @@ for status in sensor_404():
             "신호강도(dB)": network_str
         }
     }
+
+    print(data)
 
     # POST 요청 보내기
     response = requests.post(url, json=data, headers=headers)

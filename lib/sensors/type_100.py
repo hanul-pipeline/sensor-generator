@@ -1,7 +1,9 @@
-type_id = 123
-type_nm = "gas"
+# sensor type 정보
+type_id = 100
+type_nm = "<type_nm>"
 
-def sensor_404():
+# sensor 데이터 생성기
+def sensor_100():
     from time import time, sleep
     from datetime import datetime
 
@@ -27,12 +29,13 @@ def sensor_404():
             network_nm = "<network_nm>"
             network_str = "<network_str>"
 
+            # data
             yield {
                 "type" : {"name" : type_nm, "id" : type_id},
                 "nowdate": nowdate,
                 "nowtime": nowtime,
                 "location": {"name": loc_nm, "id": loc_id},
-                "type": {"name": "gas", "id": 123},
+                "type": {"name": type_nm, "id": type_id},
                 "data": {
                     "sensor": {"name": sensor_nm, "id": sensor_id},
                     "measurement": measurement,
