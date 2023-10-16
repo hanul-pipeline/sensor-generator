@@ -65,9 +65,6 @@ def send_curl(url, headers, status):
     # print("Response status code:", response.status_code)
     # print("Response body:", response.json())
 
-    ##  ok   ok              ok    ok
-    ## 위치 센서 분류 등급 측정값 단위
-
 
 def send_alert(url, headers, status):
     import sqlite3
@@ -83,15 +80,19 @@ def send_alert(url, headers, status):
     measurement = status["dict"]["data"]["measurement"]
     unit = status["dict"]["data"]["unit"]
 
-    conn = sqlite3.connect('directory')
-    cursor = conn.cursor()
-    QUERY = f"SELECT type_id, rank FROM rank WHERE {measurement} BETWEEN scope_min and scope_max"
-    cursor.execute(QUERY)
-    returned = cursor.fetchall()
-
-    type_id = returned[0][0]
-    rank = returned[0][1]
+    # conn = sqlite3.connect('directory')
+    # cursor = conn.cursor()
+    # QUERY = f"""SELECT rank 
+    #             FROM rank 
+    #             WHERE location_id = {loc_id}
+    #             AND type_id = {type_id}
+    #             AND {measurement} BETWEEN scope_min AND scope_max"""
+    # cursor.execute(QUERY)
+    # returned = cursor.fetchall()
+    # rank = returned[0][0]
     
+    rank = "rank"
+
     data = {
         "날짜": nowdate,
         "시간": nowtime,
@@ -113,5 +114,3 @@ def send_alert(url, headers, status):
     # # 응답 확인
     # print("Response status code:", response.status_code)
     # print("Response body:", response.json())
-
-    ##  ok   ok              ok    ok
