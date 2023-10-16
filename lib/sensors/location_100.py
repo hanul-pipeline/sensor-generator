@@ -1,4 +1,5 @@
 from sensors import create_sensor_data
+import gc
 
 # location 정보
 location_id = 100
@@ -23,6 +24,9 @@ def sensor_100():
     try:
         while is_running:
             start_time = time()
+
+            # clean garbage collection
+            gc.collect()
 
             # Perform your measurement and jobs
 
