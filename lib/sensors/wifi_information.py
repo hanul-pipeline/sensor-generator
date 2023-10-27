@@ -7,11 +7,12 @@ def get_internet_connection_info():
         if "ESSID" in iwconfig_output:
             wifi_name = iwconfig_output.split("ESSID:")[1].split('"')[1]
             signal_strength = iwconfig_output.split("Signal level=")[1].split("dBm")[0]
-            status = {"WiFi 명": wifi_name, "신호 강도(dBm)": signal_strength}
+            status = {"name": wifi_name, "dB": signal_strength}
             return status
         else:
-            status = {"WiFi 명": "LAN_Connection", "신호 강도(dBm)": 0}
+            status = {"name": "LAN_Connection", "dB": 0}
             return status
 
-    except subprocess.CalledProcessError:
-        return "Error Appeared."
+    except:
+        status = {"name": "can't find", "dB": 0}
+        return status
