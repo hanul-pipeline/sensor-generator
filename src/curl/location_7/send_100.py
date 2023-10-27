@@ -2,13 +2,15 @@ from configparser import ConfigParser
 import os, sys
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-config_dir = os.path.join(current_dir, f'../../../config/config.ini')
-module_dir = os.path.join(current_dir, f'../../../lib/sensors')
-sys.path.append(module_dir)
-
+sensor_dir = os.path.join(current_dir, f'../../../lib/sensors')
+sys.path.append(sensor_dir)
 from location_7 import sensor_100
-from sensors import send_curl, send_alert
 
+module_dir = os.path.join(current_dir, f'../../../lib/modules')
+sys.path.append(module_dir)
+from sensors import *
+
+config_dir = os.path.join(current_dir, f'../../../config/config.ini')
 config = ConfigParser()
 config.read(config_dir)
 url = config.get("FastAPI", "url")
@@ -20,5 +22,6 @@ url = f"{url}/load/100"
 headers = {"Content-Type": "application/json"}
 
 for status in sensor_100():
-    send_curl(headers=headers, status=status)
-    send_alert(headers=headers, status=status)
+    # confirmed
+    send_curl_measurement(headers=headers, status=status)
+    send_curl_alert(headers=headers, status=status)
