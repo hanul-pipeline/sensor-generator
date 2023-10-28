@@ -36,7 +36,7 @@ def sensor_100():
 
             # measurement
             measurement = []
-            temperature = np.random.randint(15, 50, (8, 8)) # for test: sensor data generator
+            temperature = np.random.randint(15, 35, (8, 8)) # for test: sensor data generator
             measurement.append({
                 "value_type": "temperature",
                 "value": temperature,
@@ -90,7 +90,7 @@ def sensor_500():
 
             # measurement
             measurement = []
-            temperature = random.randrange(15, 45) # for test: sensor data generator
+            temperature = random.randrange(15, 35) # for test: sensor data generator
             measurement.append({
                 "value_type": "temperature",
                 "value": temperature,
