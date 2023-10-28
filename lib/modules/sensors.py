@@ -5,9 +5,11 @@ def create_dict_measurement(measurement, network_name, network_strength,
                        sensor_name, sensor_id):
     from datetime import datetime
 
+    # date params
     nowdate = datetime.now().strftime("%Y-%m-%d")
     nowtime = datetime.now().strftime("%H:%M:%S")
 
+    # create dict
     dict_measurement = {
         "date": nowdate,
         "time": nowtime,
@@ -22,8 +24,10 @@ def create_dict_measurement(measurement, network_name, network_strength,
 
 # confirmed
 def create_dict_alert(dict_measurement, type_id, type_name, grade):
+    # copy dict
     dict_alert = dict_measurement
 
+    # input values: type, grade
     dict_alert["type"] = {"id": type_id, "name": type_name}
     dict_alert["grade"] = grade
 
@@ -37,6 +41,7 @@ def create_alert(dict_measurement, location_id):
     # create alert
     alert = []
 
+    # define grade
     for data in dict_measurement["measurement"]:
         if data["count"] == 1:
             dict_grade = grade_single_values(location_id=location_id,
@@ -59,15 +64,15 @@ def create_alert(dict_measurement, location_id):
     return alert
 
 
-
-
 # confirmed
 def send_curl_measurement(headers, status, url=None):
     import requests
 
+    # get datas
     dict_measurement = status["dict_measurement"]
     print(dict_measurement)
 
+    # send POST cURL
     if url != None:
         response = requests.post(url, json=dict_measurement, headers=headers)
         print("Response status code:", response.status_code)
@@ -78,10 +83,12 @@ def send_curl_measurement(headers, status, url=None):
 def send_curl_alert(headers, status, url=None):
     import requests
 
+    # get datas
     alert = status["alert"]
     print("alert:")
     print(alert)
 
+    # send POST cURL
     for dict_alert in alert:
         if url != None:
             response = requests.post(url, json=dict_alert, headers=headers)

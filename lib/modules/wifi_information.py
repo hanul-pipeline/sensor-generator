@@ -1,5 +1,7 @@
 import subprocess
 
+# ubuntu: confirmed
+# macOS: X
 def get_internet_connection_info():
     try:
         iwconfig_output = subprocess.check_output(["iwconfig"]).decode("utf-8")
