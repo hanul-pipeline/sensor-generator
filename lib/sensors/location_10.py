@@ -43,7 +43,7 @@ def sensor_300():
                 "value_type": "CH4",
                 "value": CH4,
                 "unit": "ppm",
-                "count": 1,
+                "cnt": 1,
                 "percentage": 0})
 
             # metwork information

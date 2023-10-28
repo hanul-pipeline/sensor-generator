@@ -43,7 +43,7 @@ def sensor_400():
                 "value_type": "CO",
                 "value": CO,
                 "unit": "ppm",
-                "count": 1,
+                "cnt": 1,
                 "percentage": 0})
 
             # get network information

@@ -43,7 +43,7 @@ def create_alert(dict_measurement, location_id):
 
     # define grade
     for data in dict_measurement["measurement"]:
-        if data["count"] == 1:
+        if data["cnt"] == 1:
             dict_grade = grade_single_values(location_id=location_id,
                                         value_type=data["value_type"],
                                         value=data["value"])

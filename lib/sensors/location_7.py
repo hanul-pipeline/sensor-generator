@@ -41,7 +41,7 @@ def sensor_100():
                 "value_type": "temperature",
                 "value": temperature,
                 "unit": "°C",
-                "count": 64,
+                "cnt": 64,
                 "percentage": 50})
 
             # network information
@@ -95,7 +95,7 @@ def sensor_500():
                 "value_type": "temperature",
                 "value": temperature,
                 "unit": "°C",
-                "count": 1,
+                "cnt": 1,
                 "percentage": 0})
 
             moisture = random.randrange(40, 60) # for test: sensor data generator
@@ -103,7 +103,7 @@ def sensor_500():
                 "value_type": "moisture",
                 "value": moisture,
                 "unit": "%",
-                "count": 1,
+                "cnt": 1,
                 "percentage": 0})
 
             # get network information

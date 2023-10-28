@@ -41,7 +41,7 @@ def sensor_200():
                 "value_type": "temperature",
                 "value": temperature,
                 "unit": "°C",
-                "count": 256,
+                "cnt": 256,
                 "percentage": 50})
 
             # network information
