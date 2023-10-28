@@ -51,7 +51,7 @@ def create_alert(dict_measurement, location_id):
             dict_grade = grade_multiple_values(location_id=location_id,
                                             value_type=data["value_type"],
                                             value=data["value"],
-                                            total_cnt=data["count"],
+                                            total_cnt=data["cnt"],
                                             percentage=data["percentage"])
             
         if dict_grade["grade"] != "normal":
