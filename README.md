@@ -8,7 +8,8 @@ sensor-generator 레포지토리는 팀 '한울'에서 설계한 데이터 관�
 
 # Structure
 ### database: SQLite
-image
+<img width="444" alt="database_sqlite" src="https://github.com/hanul-pipeline/sensor-generator/assets/130134750/4fd35eeb-6637-423e-9723-5e62e0951a93">
+
 
 ### tree
 ```
