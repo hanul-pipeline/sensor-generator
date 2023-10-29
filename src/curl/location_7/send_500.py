@@ -16,12 +16,12 @@ config.read(config_dir)
 url = config.get("FastAPI", "url")
 
 # URL 및 데이터 설정
-url = f"{url}/load/500"
+url = f"{url}/update/500"
 
 # 헤더 설정
 headers = {"Content-Type": "application/json"}
 
 for status in sensor_500():
     # confirmed
-    send_curl_measurement(headers=headers, status=status)
+    send_curl_measurement(headers=headers, status=status, url=url)
     send_curl_alert(headers=headers, status=status)

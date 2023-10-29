@@ -36,8 +36,17 @@ def sensor_100():
 
             # measurement
             measurement = []
-            temperature = np.random.randint(15, 35, (8, 8)) # for test: sensor data generator
+            measurement_check = []
+
+            # add measurements
+            temperature = np.random.randint(15, 35, (8, 8))# for test: sensor data generator
             measurement.append({
+                "value_type": "temperature",
+                "value": f"{temperature.tolist()}",
+                "unit": "°C",
+                "cnt": 64,
+                "percentage": 50})
+            measurement_check.append({
                 "value_type": "temperature",
                 "value": temperature,
                 "unit": "°C",
@@ -53,9 +62,13 @@ def sensor_100():
             dict_measurement = create_dict_measurement(measurement, network_name, network_strength, 
                               sensor_type, location_name, location_id,
                               sensor_name, sensor_id)
+            
+            dict_check = create_dict_measurement(measurement_check, network_name, network_strength, 
+                              sensor_type, location_name, location_id,
+                              sensor_name, sensor_id)
 
             # create instance data: alert
-            alert = create_alert(dict_measurement, location_id)
+            alert = create_alert(dict_check, location_id)
 
             # yield datas
             yield {"dict_measurement": dict_measurement, "alert": alert}
