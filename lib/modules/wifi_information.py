@@ -12,9 +12,13 @@ def get_internet_connection_info():
             status = {"name": wifi_name, "dB": signal_strength}
             return status
         else:
-            status = {"name": "LAN_Connection", "dB": 0}
+            wifi_name = "LAN-CONNECTED"
+            signal_strength = 100
+            status = {"name": wifi_name, "dB": signal_strength}
             return status
 
     except:
-        status = {"name": "can't find", "dB": 0}
+        wifi_name = "NONE"
+        signal_strength = 0
+        status = {"name": wifi_name, "dB": signal_strength}
         return status

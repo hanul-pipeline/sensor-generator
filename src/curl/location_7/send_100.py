@@ -22,5 +22,6 @@ url = f"{url}/update/100"
 headers = {"Content-Type": "application/json"}
 
 for status in sensor_100():
-    send_curl_measurement(headers=headers, status=status, url=url)
+    # send_curl_measurement(headers=headers, status=status, url=url)
+    send_curl_measurement(status=status, url=url)
     send_curl_alert(headers=headers, status=status)
