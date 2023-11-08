@@ -100,8 +100,9 @@ def send_curl_measurement(status, url=None):
 
 
 # confirmed
-def send_curl_alert(headers, status, url=None):
-    import requests
+def send_curl_alert(status, url=None):
+    import subprocess
+    import json
 
     # get datas
     alert = status["alert"]
@@ -111,6 +112,7 @@ def send_curl_alert(headers, status, url=None):
     # send POST cURL
     for dict_alert in alert:
         if url != None:
-            response = requests.post(url, json=dict_alert, headers=headers)
-            print("Response status code:", response.status_code)
-            print("Response body:", response.json())
+            type_id = dict_alert["type"]["id"]
+            json_alert = json.dumps(dict_alert, ensure_ascii=False)
+            cmd = f'curl -X POST -H "Content-Type: application/json" -d \'{json_alert}\' {url}/{type_id}'
+            subprocess.run(cmd, shell=True)
