@@ -38,7 +38,7 @@ def sensor_400():
 
             # measurement
             measurement = []
-            CO = round(random.uniform(0, 300.0), 1) # for test: sensor data generator
+            CO = round(random.uniform(0, 15.0), 1) # for test: sensor data generator
             measurement.append({
                 "value_type": "CO",
                 "value": CO,

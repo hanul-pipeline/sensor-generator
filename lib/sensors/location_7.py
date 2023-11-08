@@ -39,7 +39,7 @@ def sensor_100():
             measurement_check = []
 
             # add measurements
-            temperature = np.random.randint(15, 35, (8, 8))# for test: sensor data generator
+            temperature = np.random.randint(15, 18, (8, 8))# for test: sensor data generator
             measurement.append({
                 "value_type": "temperature",
                 "value": f"{temperature.tolist()}",
@@ -103,7 +103,7 @@ def sensor_500():
 
             # measurement
             measurement = []
-            temperature = random.randrange(15, 35) # for test: sensor data generator
+            temperature = random.randrange(15, 18) # for test: sensor data generator
             measurement.append({
                 "value_type": "temperature",
                 "value": temperature,
@@ -111,7 +111,7 @@ def sensor_500():
                 "cnt": 1,
                 "percentage": 0})
 
-            moisture = random.randrange(40, 60) # for test: sensor data generator
+            moisture = random.randrange(55, 60) # for test: sensor data generator
             measurement.append({
                 "value_type": "moisture",
                 "value": moisture,

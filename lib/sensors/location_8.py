@@ -39,7 +39,7 @@ def sensor_200():
             measurement_check = []
 
             # add measurements
-            temperature = np.random.randint(15, 35, (16, 16))# for test: sensor data generator
+            temperature = np.random.randint(15, 18, (16, 16))# for test: sensor data generator
             measurement.append({
                 "value_type": "temperature",
                 "value": f"{temperature.tolist()}",

@@ -38,7 +38,7 @@ def sensor_300():
 
             # measurement
             measurement = []
-            CH4 = round(random.uniform(0, 1.0), 1) # for test: sensor data generator
+            CH4 = round(random.uniform(0, 0.1), 1) # for test: sensor data generator
             measurement.append({
                 "value_type": "CH4",
                 "value": CH4,
