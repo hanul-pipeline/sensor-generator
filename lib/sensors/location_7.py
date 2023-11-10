@@ -26,10 +26,14 @@ def sensor_100():
     sensor_type = "열화상카메라"
 
     is_running = True
+    cnt = 0
 
     try:
         while is_running:
             start_time = time()
+
+            # update cnt
+            cnt += 1
 
             # garbage collector
             gc.collect()
@@ -73,6 +77,10 @@ def sensor_100():
             # yield datas
             yield {"dict_measurement": dict_measurement, "alert": alert}
 
+            # check cnt
+            if cnt == 3600:
+                break
+
             # time sleep
             end_time = time()
             sleep(1 - (end_time - start_time))
@@ -93,10 +101,14 @@ def sensor_500():
     sensor_type = "온습도 센서"
 
     is_running = True
+    cnt = 0
 
     try:
         while is_running:
             start_time = time()
+
+            # update count
+            cnt += 1
 
             # garbage collector 
             gc.collect()
@@ -134,6 +146,10 @@ def sensor_500():
 
             # yield datas
             yield {"dict_measurement": dict_measurement, "alert": alert}
+
+            # check cnt
+            if cnt == 3600:
+                break
 
             # time sleep
             end_time = time()

@@ -26,10 +26,14 @@ def sensor_200():
     sensor_type = "열화상카메라"
 
     is_running = True
+    cnt = 0
 
     try:
         while is_running:
             start_time = time()
+
+            # update cnt
+            cnt += 1
 
             # garbage collector
             gc.collect()
@@ -72,6 +76,10 @@ def sensor_200():
 
             # yield datas
             yield {"dict_measurement": dict_measurement, "alert": alert}
+
+            # check cnt
+            if cnt == 3600:
+                break
 
             # time sleep
             end_time = time()
