@@ -1,450 +1,0 @@
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1173 --:--:-- --:--:-- --:--:--  1187
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1355 --:--:-- --:--:-- --:--:--  1376
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1938 --:--:-- --:--:-- --:--:--  1979
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4169 --:--:-- --:--:-- --:--:--  4318
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1389 --:--:-- --:--:-- --:--:--  1412
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4715 --:--:-- --:--:-- --:--:--  4871
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   3995 --:--:-- --:--:-- --:--:--  4175
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4175 --:--:-- --:--:-- --:--:--  4367
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4030 --:--:-- --:--:-- --:--:--  4175
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   2520 --:--:-- --:--:-- --:--:--  2585
-{'date': '2023-11-10', 'time': '22:07:14', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 27, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 55, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:14", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 27, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 55, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:15', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 19, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 47, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:15", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 19, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 47, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:16', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 21, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 42, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:16", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 21, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 42, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:17', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 24, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 52, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:17", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 24, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 52, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:18', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 15, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 43, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:18", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 15, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 43, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:19', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 23, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 56, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:19", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 23, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 56, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:20', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 17, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 50, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:20", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 17, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 50, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:21', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 22, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 53, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:21", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 22, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 53, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:22', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 25, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 58, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:22", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 25, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 58, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:23', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 21, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 45, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:23", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 21, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 45, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:24', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 26, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 58, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4483 --:--:-- --:--:-- --:--:--  4691
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4068 --:--:-- --:--:-- --:--:--  4269
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   3914 --:--:-- --:--:-- --:--:--  4086
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   3955 --:--:-- --:--:-- --:--:--  4086
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1693 --:--:-- --:--:-- --:--:--  1727
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4969 --:--:-- --:--:-- --:--:--  5352
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4291 --:--:-- --:--:-- --:--:--  4578
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1304 --:--:-- --:--:-- --:--:--  1319
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   3951 --:--:-- --:--:-- --:--:--  4175
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4467 --:--:-- --:--:-- --:--:--  4750
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4766 --:--:-- --:--:-- --:--:--  5000
-{"date": "2023-11-10", "time": "22:07:24", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 26, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 58, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:25', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 16, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 46, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:25", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 16, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 46, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:26', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 30, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 58, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:26", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 30, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 58, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:27', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 28, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 47, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:27", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 28, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 47, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:28', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 31, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 45, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:28", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 31, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 45, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:29', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 26, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 41, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:29", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 26, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 41, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:30', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 30, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 44, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:30", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 30, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 44, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:31', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 32, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 51, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:31", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 32, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 51, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:32', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 29, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 55, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:32", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 29, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 55, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:33', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 31, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 57, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:33", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 31, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 57, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:34', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 25, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 50, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:34", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 25, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 50, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4383 --:--:-- --:--:-- --:--:--  4578
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   3941 --:--:-- --:--:-- --:--:--  4086
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4532 --:--:-- --:--:-- --:--:--  4750
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4799 --:--:-- --:--:-- --:--:--  5000
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1349 --:--:-- --:--:-- --:--:--  1362
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   2321 --:--:-- --:--:-- --:--:--  2375
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4725 --:--:-- --:--:-- --:--:--  5066
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4604 --:--:-- --:--:-- --:--:--  4871
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   3951 --:--:-- --:--:-- --:--:--  4130
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4266 --:--:-- --:--:-- --:--:--  4470
-{'date': '2023-11-10', 'time': '22:07:35', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 28, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 55, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:35", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 28, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 55, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:36', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 19, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 46, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:36", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 19, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 46, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:37', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 16, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 45, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:37", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 16, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 45, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:38', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 30, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 41, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:38", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 30, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 41, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:39', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 32, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 51, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:39", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 32, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 51, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:40', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 18, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 59, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:40", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 18, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 59, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:41', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 34, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 43, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:41", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 34, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 43, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:42', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 16, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 43, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:42", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 16, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 43, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:43', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 17, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 51, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:43", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 17, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 51, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:44', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 31, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 59, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:44", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 31, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 59, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:45', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 29, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 42, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   2374 --:--:-- --:--:-- --:--:--  2451
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   2809 --:--:-- --:--:-- --:--:--  2900
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1407 --:--:-- --:--:-- --:--:--  1428
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   2502 --:--:-- --:--:-- --:--:--  2567
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4285 --:--:-- --:--:-- --:--:--  4523
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4009 --:--:-- --:--:-- --:--:--  4175
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   3970 --:--:-- --:--:-- --:--:--  4130
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4106 --:--:-- --:--:-- --:--:--  4318
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4237 --:--:-- --:--:-- --:--:--  4418
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   3797 --:--:-- --:--:-- --:--:--  3958
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4792 --:--:-- --:--:-- --:--:--  5066
-{"date": "2023-11-10", "time": "22:07:45", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 29, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 42, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:46', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 25, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 49, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:46", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 25, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 49, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:47', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 23, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 53, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:47", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 23, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 53, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:48', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 23, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 42, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:48", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 23, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 42, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:49', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 17, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 44, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:49", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 17, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 44, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:50', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 34, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 59, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:50", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 34, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 59, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:51', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 23, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 45, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:51", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 23, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 45, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:52', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 15, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 59, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:52", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 15, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 59, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:53', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 33, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 55, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:53", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 33, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 55, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:54', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 27, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 44, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:54", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 27, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 44, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:55', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 27, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 48, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:55", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 27, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 48, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4329 --:--:-- --:--:-- --:--:--  4578
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4364 --:--:-- --:--:-- --:--:--  4578
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1369 --:--:-- --:--:-- --:--:--  1391
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   2416 --:--:-- --:--:-- --:--:--  2516
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1806 --:--:-- --:--:-- --:--:--  1853
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   3910 --:--:-- --:--:-- --:--:--  4175
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   2711 --:--:-- --:--:-- --:--:--  2814
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   4543 --:--:-- --:--:-- --:--:--  4871
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1910 --:--:-- --:--:-- --:--:--  1979
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1924 --:--:-- --:--:-- --:--:--  2000
-{'date': '2023-11-10', 'time': '22:07:56', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 15, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 55, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:56", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 15, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 55, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:57', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 15, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 42, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:57", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 15, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 42, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:58', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 26, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 45, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:58", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 26, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 45, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:59', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 28, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 42, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:59", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 28, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 42, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:00', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 22, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 41, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:00", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 22, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 41, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:01', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 21, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 42, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:01", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 21, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 42, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:02', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 15, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 47, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:02", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 15, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 47, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:03', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 27, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 51, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:03", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 27, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 51, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:04', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 28, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 57, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:04", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 28, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 57, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:05', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 27, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 44, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:05", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 27, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 44, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:06', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 28, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 51, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1388 --:--:-- --:--:-- --:--:--  1423
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1427 --:--:-- --:--:-- --:--:--  1461
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1816 --:--:-- --:--:-- --:--:--  1871
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1427 --:--:-- --:--:-- --:--:--  1467
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1402 --:--:-- --:--:-- --:--:--  1433
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1184 --:--:-- --:--:-- --:--:--  1210
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1503 --:--:-- --:--:-- --:--:--  1551
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1449 --:--:-- --:--:-- --:--:--  1496
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1758 --:--:-- --:--:-- --:--:--  1809
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1264 --:--:-- --:--:-- --:--:--  1283
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1369 --:--:-- --:--:-- --:--:--  1417
-{"date": "2023-11-10", "time": "22:08:06", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 28, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 51, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:07', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 31, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 58, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:07", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 31, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 58, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:08', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 18, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 46, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:08", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 18, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 46, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:09', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 30, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 54, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:09", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 30, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 54, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:10', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 26, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 50, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:10", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 26, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 50, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:11', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 23, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 42, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:11", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 23, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 42, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:12', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 16, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 59, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:12", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 16, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 59, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:13', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 21, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 52, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:13", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 21, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 52, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:14', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 24, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 59, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:14", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 24, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 59, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:15', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 17, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 44, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:15", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 17, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 44, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:16', 'location': {'id': 7, 'name': '도장공정'}, 'sensor': {'id': 500, 'name': 'DHT-21', 'type': '온습도 센서'}, 'measurement': [{'value_type': 'temperature', 'value': 20, 'unit': '°C', 'cnt': 1, 'percentage': 0}, {'value_type': 'moisture', 'value': 52, 'unit': '%', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:16", "location": {"id": 7, "name": "도장공정"}, "sensor": {"id": 500, "name": "DHT-21", "type": "온습도 센서"}, "measurement": [{"value_type": "temperature", "value": 20, "unit": "°C", "cnt": 1, "percentage": 0}, {"value_type": "moisture", "value": 52, "unit": "%", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1828 --:--:-- --:--:-- --:--:--  1890
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   2614 --:--:-- --:--:-- --:--:--  2714
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   380    0     0  100   380      0   1321 --:--:-- --:--:-- --:--:--  1342

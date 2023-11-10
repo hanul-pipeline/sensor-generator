@@ -1,458 +1,0 @@
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0    932 --:--:-- --:--:-- --:--:--   943
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1499 --:--:-- --:--:-- --:--:--  1530
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1198 --:--:-- --:--:-- --:--:--  1214
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1299 --:--:-- --:--:-- --:--:--  1321
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1130 --:--:-- --:--:-- --:--:--  1153
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1268 --:--:-- --:--:-- --:--:--  1293
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1162 --:--:-- --:--:-- --:--:--  1190
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1213 --:--:-- --:--:-- --:--:--  1239
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1175 --:--:-- --:--:-- --:--:--  1195
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1135 --:--:-- --:--:-- --:--:--  1158
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1233 --:--:-- --:--:-- --:--:--  1250
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1309 --:--:-- --:--:-- --:--:--  1333
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1274 --:--:-- --:--:-- --:--:--  1298
-{'date': '2023-11-10', 'time': '22:07:14', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.7, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:14", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.7, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:15', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.6, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:15", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.6, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:16', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.3, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:16", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.3, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:17', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.0, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:17", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.0, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:18', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 1.0, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:18", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 1.0, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:19', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.9, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:19", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.9, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:20', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:20", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:21', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.7, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:21", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.7, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:22', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.9, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:22", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.9, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:23', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.9, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:23", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.9, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:24', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.5, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:24", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.5, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:25', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:25", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:26', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.8, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:26", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.8, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1192 --:--:-- --:--:-- --:--:--  1214
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1375 --:--:-- --:--:-- --:--:--  1408
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1237 --:--:-- --:--:-- --:--:--  1260
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1223 --:--:-- --:--:-- --:--:--  1239
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1063 --:--:-- --:--:-- --:--:--  1075
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1124 --:--:-- --:--:-- --:--:--  1145
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1240 --:--:-- --:--:-- --:--:--  1265
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1240 --:--:-- --:--:-- --:--:--  1255
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1178 --:--:-- --:--:-- --:--:--  1195
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1312 --:--:-- --:--:-- --:--:--  1333
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1151 --:--:-- --:--:-- --:--:--  1167
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1244 --:--:-- --:--:-- --:--:--  1260
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1090 --:--:-- --:--:-- --:--:--  1102
-{'date': '2023-11-10', 'time': '22:07:27', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.7, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:27", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.7, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:28', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.4, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:28", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.4, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:29', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.1, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:29", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.1, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:30', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.3, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:30", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.3, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:31', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 1.0, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:31", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 1.0, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:32', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:32", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:33', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.7, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:33", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.7, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:34', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.6, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:34", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.6, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:35', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.8, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:35", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.8, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:36', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:36", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:37', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.9, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:37", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.9, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:38', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.6, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:38", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.6, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:39', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.4, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:39", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.4, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1901 --:--:-- --:--:-- --:--:--  1935
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1205 --:--:-- --:--:-- --:--:--  1229
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1183 --:--:-- --:--:-- --:--:--  1200
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1106 --:--:-- --:--:-- --:--:--  1119
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1146 --:--:-- --:--:-- --:--:--  1162
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1913 --:--:-- --:--:-- --:--:--  1960
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   2268 --:--:-- --:--:-- --:--:--  2325
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   4141 --:--:-- --:--:-- --:--:--  4347
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   2035 --:--:-- --:--:-- --:--:--  2083
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1359 --:--:-- --:--:-- --:--:--  1388
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1173 --:--:-- --:--:-- --:--:--  1190
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1247 --:--:-- --:--:-- --:--:--  1265
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1106 --:--:-- --:--:-- --:--:--  1119
-{'date': '2023-11-10', 'time': '22:07:40', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.8, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:40", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.8, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:41', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.4, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:41", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.4, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:42', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.0, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:42", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.0, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:43', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:43", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:44', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.8, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:44", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.8, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:45', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.3, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:45", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.3, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:46', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.9, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:46", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.9, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:47', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:47", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:48', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.7, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:48", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.7, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:49', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.6, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:49", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.6, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:50', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.6, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:50", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.6, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:51', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:51", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:52', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.5, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:52", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.5, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1184 --:--:-- --:--:-- --:--:--  1200
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1121 --:--:-- --:--:-- --:--:--  1136
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1218 --:--:-- --:--:-- --:--:--  1239
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1144 --:--:-- --:--:-- --:--:--  1162
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1160 --:--:-- --:--:-- --:--:--  1176
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   4421 --:--:-- --:--:-- --:--:--  4687
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1913 --:--:-- --:--:-- --:--:--  1986
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   3610 --:--:-- --:--:-- --:--:--  3846
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1157 --:--:-- --:--:-- --:--:--  1185
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   2139 --:--:-- --:--:-- --:--:--  2238
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1559 --:--:-- --:--:-- --:--:--  1604
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   3560 --:--:-- --:--:-- --:--:--  3896
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1519 --:--:-- --:--:-- --:--:--  1578
-{'date': '2023-11-10', 'time': '22:07:53', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:53", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:54', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 1.0, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:54", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 1.0, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:55', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.8, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:55", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.8, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:56', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.1, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:56", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.1, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:57', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.7, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:57", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.7, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:58', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.1, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:58", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.1, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:07:59', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.9, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:07:59", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.9, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:00', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.7, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:00", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.7, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:01', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.6, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:01", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.6, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:02', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.0, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:02", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.0, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:03', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:03", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:04', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.5, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:04", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.5, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:05', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:05", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1095 --:--:-- --:--:-- --:--:--  1123
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1124 --:--:-- --:--:-- --:--:--  1149
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1434 --:--:-- --:--:-- --:--:--  1477
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1126 --:--:-- --:--:-- --:--:--  1158
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1106 --:--:-- --:--:-- --:--:--  1132
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0    935 --:--:-- --:--:-- --:--:--   955
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   3640 --:--:-- --:--:-- --:--:--  3947
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1144 --:--:-- --:--:-- --:--:--  1181
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1394 --:--:-- --:--:-- --:--:--  1449
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1006 --:--:-- --:--:-- --:--:--  1023
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1084 --:--:-- --:--:-- --:--:--  1119
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1449 --:--:-- --:--:-- --:--:--  1500
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1172 --:--:-- --:--:-- --:--:--  1195
-{'date': '2023-11-10', 'time': '22:08:06', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.2, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:06", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.2, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:07', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.3, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:07", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.3, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:08', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.4, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:08", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.4, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:09', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.3, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:09", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.3, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:10', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.9, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:10", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.9, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:11', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.3, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:11", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.3, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:12', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.1, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:12", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.1, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:13', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.9, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:13", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.9, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:14', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.5, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:14", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.5, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:15', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.8, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:15", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.8, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:16', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.6, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:16", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.6, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:17', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.5, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:17", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.5, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-{'date': '2023-11-10', 'time': '22:08:18', 'location': {'id': 10, 'name': '제1 연구실'}, 'sensor': {'id': 300, 'name': 'MQ-4', 'type': '가연성 가스 센서'}, 'measurement': [{'value_type': 'CH4', 'value': 0.6, 'unit': 'ppm', 'cnt': 1, 'percentage': 0}], 'network': {'name': 'NONE', 'dB': 0}}
-{"date": "2023-11-10", "time": "22:08:18", "location": {"id": 10, "name": "제1 연구실"}, "sensor": {"id": 300, "name": "MQ-4", "type": "가연성 가스 센서"}, "measurement": [{"value_type": "CH4", "value": 0.6, "unit": "ppm", "cnt": 1, "percentage": 0}], "network": {"name": "NONE", "dB": 0}}
-alert:
-[]
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   300    0     0  100   300      0   1052 --:--:-- --:--:-- --:--:--  1067
