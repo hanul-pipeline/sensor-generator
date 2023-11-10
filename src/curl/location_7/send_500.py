@@ -10,15 +10,18 @@ module_dir = os.path.join(current_dir, f'../../../lib/modules')
 sys.path.append(module_dir)
 from sensors import *
 
+# set config
 config_dir = os.path.join(current_dir, f'../../../config/config.ini')
 config = ConfigParser()
 config.read(config_dir)
-url = config.get("FastAPI", "url")
 
 # URL 및 데이터 설정
-url = f"{url}/update/500"
+uri_stream = config.get("FastAPI", "stream")
+url_stream = f"{uri_stream}/update/500"
+uri_alert = config.get("FastAPI", "alert")
+url_alert = f"{uri_stream}/alert/7"
 
 for status in sensor_500():
-    # confirmed
-    send_curl_measurement(status=status, url=url)
-    send_curl_alert(status=status)
+    send_curl_measurement(status=status, url=url_stream)
+    send_curl_alert(status=status, url=url_alert)
+    

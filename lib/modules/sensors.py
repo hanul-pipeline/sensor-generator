@@ -65,23 +65,6 @@ def create_alert(dict_measurement, location_id):
 
 
 # confirmed
-# def send_curl_measurement(headers, status, url=None):
-#     import requests
-#     import json
-
-#     # get datas
-#     dict_measurement = status["dict_measurement"]
-#     print(dict_measurement)
-
-#     json_measurement = json.dumps(dict_measurement, ensure_ascii=False)
-#     print(json_measurement)
-
-#     # send POST cURL
-#     if url != None:
-#         response = requests.post(url, json=dict_measurement, headers=headers)
-#         print("Response status code:", response.status_code)
-
-# confirmed
 def send_curl_measurement(status, url=None):
     import subprocess
     import json
@@ -109,10 +92,11 @@ def send_curl_alert(status, url=None):
     print("alert:")
     print(alert)
 
-    json_measurement = json.dumps(alert, ensure_ascii=False)
-    print(json_measurement)
-
     # send POST cURL
     if url != None:
-        cmd = f'curl -X POST -H "Content-Type: application/json" -d \'{json_measurement}\' {url}'
-        subprocess.run(cmd, shell=True)
+        for single in alert:
+            json_measurement = json.dumps(single, ensure_ascii=False)
+            # type id
+            type_id = json_measurement["type"]["id"]
+            cmd = f'curl -X POST -H "Content-Type: application/json" -d \'{json_measurement}\' {url}/{type_id}'
+            subprocess.run(cmd, shell=True)
