@@ -1,10 +1,26 @@
 import os
 import numpy as np
-import sqlite3
-
+from mysql import connector
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-database_dir = os.path.join(current_dir, f'../../database/sensor.db')
+config_dir = os.path.join(current_dir, f'../../config/config.ini')
+
+
+def open_connector():
+    from configparser import ConfigParser
+    
+    config = ConfigParser()
+    config.read(config_dir)
+    
+    conn = connector.connect(
+        host=config.get("MySQL", "host"),
+        port=config.get("MySQL", "port"),
+        user=config.get("MySQL", "user"),
+        passwd=config.get("MySQL", "passwd"),
+        database=config.get("MySQL", "database")
+    )
+    
+    return conn
 
 
 # confirmed
@@ -13,7 +29,7 @@ def grade_single_values(location_id, value_type, value):
     dict_grade = {}
 
     # open connector
-    conn = sqlite3.connect(database=database_dir)
+    conn = open_connector()
     cursor = conn.cursor()
 
     # get values
@@ -41,7 +57,7 @@ def grade_multiple_values(location_id, value_type, value, total_cnt, percentage)
     dict_grade = {}
 
     # open connector
-    conn = sqlite3.connect(database=database_dir)
+    conn = open_connector()
     cursor = conn.cursor()
 
     # get params
@@ -54,6 +70,7 @@ def grade_multiple_values(location_id, value_type, value, total_cnt, percentage)
     """
     cursor.execute(QUERY)
     returned = cursor.fetchall()[0]
+    
     bottom_value = returned[0]
     top_value = returned[1]
 
@@ -71,7 +88,7 @@ def grade_multiple_values(location_id, value_type, value, total_cnt, percentage)
         count_total_inspection += row
 
     # evacuation
-    count_evacuation = np.logical_and(value >= top_value, value <= top_value).sum(axis=1)
+    count_evacuation = np.logical_and(value >= top_value, value < 1e6).sum(axis=1)
     count_total_evacuation = 0
     for row in count_evacuation:
         count_total_evacuation += row
@@ -87,15 +104,31 @@ def grade_multiple_values(location_id, value_type, value, total_cnt, percentage)
     else:
         dict_grade["grade"] = "normal"
 
+    print(dict_grade)
     return dict_grade
 
 
 # TEST
 if __name__ == "__main__":
+    
+    def generate_matrix(rows, cols, min_value, max_value):
+        import numpy as np
+        
+        matrix = np.zeros((rows, cols))
+
+        for i in range(rows):
+            for j in range(cols):
+                distance = np.sqrt((i - rows // 2)**2 + (j - cols // 2)**2)
+                cell = np.random.randint(min_value, max_value + 1)*(1 - (distance/max(rows, cols))*0.5)
+                matrix[i, j] = max(round(cell, 1), 0)
+
+        return matrix
+
+    value = generate_matrix(8, 8, 199, 200)
+    
     # params
     location_id = 7
     value_type = "temperature"
-    value = np.random.randint(0, 71, (8, 8))
     total_cnt = 64
     percentage = 50
 
@@ -106,15 +139,4 @@ if __name__ == "__main__":
                                        total_cnt=total_cnt,
                                        percentage=percentage)
     
-    print(dict)
-
-    # params
-    location_id = 10
-    value_type = "CH4"
-    value = 2.5
-
-    # return dict
-    dict = grade_single_values(location_id=location_id,
-                               value_type=value_type,
-                               value=value)
     print(dict)

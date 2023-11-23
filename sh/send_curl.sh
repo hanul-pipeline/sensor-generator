@@ -13,3 +13,4 @@ nohup python3 $CURL_DIR/location_8/send_200.py >> $LOG_DIR/200.log 2>&1 &
 nohup python3 $CURL_DIR/location_10/send_300.py >> $LOG_DIR/300.log 2>&1 &
 nohup python3 $CURL_DIR/location_11/send_400.py >> $LOG_DIR/400.log 2>&1 &
 nohup python3 $CURL_DIR/location_7/send_500.py >> $LOG_DIR/500.log 2>&1 &
+nohup python3 $CURL_DIR/location_7/send_600.py >> $LOG_DIR/600.log 2>&1 &

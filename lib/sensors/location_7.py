@@ -1,4 +1,5 @@
 from time import time, sleep
+from datetime import datetime
 import gc
 import os, sys
 
@@ -10,6 +11,9 @@ from grade import *
 from sensors import *
 from wifi_information import get_internet_connection_info
 
+# demo
+from demo import *
+
 
 location_id = 7
 location_name = "도장공정"
@@ -17,7 +21,6 @@ location_name = "도장공정"
 
 # confirmed
 def sensor_100():
-    
     import numpy as np # for test: sensor data generator
 
     # default
@@ -41,9 +44,27 @@ def sensor_100():
             # measurement
             measurement = []
             measurement_check = []
+            
+            # def max_value
+            if datetime.now().strftime('%Y-%m-%d') == "2023-11-24":
+                hour = datetime.now().strftime('%H')
+                max_value = round(30 + (0.2*hour) + (0.000055*cnt), 1)
+            
+            elif datetime.now().strftime('%Y-%m-%d') == "2023-11-25":
+                hour = datetime.now().strftime('%H')
+                max_value = round(34 + (0.4*hour) + (0.00011*cnt), 1)
+
+            elif datetime.now().strftime('%Y-%m-%d') == "2023-11-23":
+                if cnt == 90:
+                    break
+                max_value = round(200 + (7.8*cnt), 1)
+            
+            else:
+                max_value = 30
+
 
             # add measurements
-            temperature = np.random.randint(15, 18, (8, 8))# for test: sensor data generator
+            temperature = generate_matrix(8, 8, max_value - 1, max_value)
             measurement.append({
                 "value_type": "temperature",
                 "value": f"{temperature.tolist()}",
@@ -90,7 +111,7 @@ def sensor_100():
 
 
 # confirmed
-def sensor_600():
+def sensor_500():
     from time import time, sleep
 
     import random # for test: sensor data generator
@@ -157,6 +178,8 @@ def sensor_600():
 
     except KeyboardInterrupt:
         is_running = False
+
+
 
 # confirmed
 def sensor_600():
