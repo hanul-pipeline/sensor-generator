@@ -23,7 +23,7 @@ def sensor_400():
 
     # default
     sensor_id = 400
-    sensor_name = "MQ-7"
+    sensor_name = "MQ-5"
     sensor_type = "일산화탄소 센서"
 
     is_running = True
