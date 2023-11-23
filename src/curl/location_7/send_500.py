@@ -19,7 +19,7 @@ config.read(config_dir)
 uri_stream = config.get("FastAPI", "stream")
 url_stream = f"{uri_stream}/update/500"
 uri_alert = config.get("FastAPI", "alert")
-url_alert = f"{uri_stream}/alert/7"
+url_alert = f"{uri_alert}/alert/7"
 
 for status in sensor_500():
     send_curl_measurement(status=status, url=url_stream)

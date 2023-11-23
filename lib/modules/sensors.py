@@ -95,8 +95,10 @@ def send_curl_alert(status, url=None):
     # send POST cURL
     if url != None:
         for single in alert:
-            json_measurement = json.dumps(single, ensure_ascii=False)
             # type id
-            type_id = json_measurement["type"]["id"]
+            type_id = single["type"]["id"]
+            
+            # dump json
+            json_measurement = json.dumps(single, ensure_ascii=False)
             cmd = f'curl -X POST -H "Content-Type: application/json" -d \'{json_measurement}\' {url}/{type_id}'
             subprocess.run(cmd, shell=True)

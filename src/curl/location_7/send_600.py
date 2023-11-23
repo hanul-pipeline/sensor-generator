@@ -24,4 +24,3 @@ url_alert = f"{uri_stream}/alert/7"
 for status in sensor_600():
     send_curl_measurement(status=status, url=url_stream)
     send_curl_alert(status=status, url=url_alert)
-    

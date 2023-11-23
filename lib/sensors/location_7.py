@@ -14,7 +14,6 @@ from wifi_information import get_internet_connection_info
 # demo
 from demo import *
 
-
 location_id = 7
 location_name = "도장공정"
 
@@ -48,23 +47,22 @@ def sensor_100():
             # def max_value
             if datetime.now().strftime('%Y-%m-%d') == "2023-11-24":
                 hour = datetime.now().strftime('%H')
-                max_value = round(30 + (0.2*hour) + (0.000055*cnt), 1)
+                mid_value = round(30 + (0.15*hour) + (0.000055*cnt), 2)
             
             elif datetime.now().strftime('%Y-%m-%d') == "2023-11-25":
                 hour = datetime.now().strftime('%H')
-                max_value = round(34 + (0.4*hour) + (0.00011*cnt), 1)
+                mid_value = round(34 + (0.2*hour) + (0.00011*cnt), 2)
 
-            elif datetime.now().strftime('%Y-%m-%d') == "2023-11-23":
+            elif datetime.now().strftime('%Y-%m-%d') == "2023-11-26":
                 if cnt == 90:
                     break
-                max_value = round(200 + (7.8*cnt), 1)
+                mid_value = round(200 + (7.8*cnt), 2)
             
             else:
-                max_value = 30
-
+                mid_value = 30
 
             # add measurements
-            temperature = generate_matrix(8, 8, max_value - 1, max_value)
+            temperature = generate_matrix(8, 8, mid_value-0.5, mid_value+0.5)
             measurement.append({
                 "value_type": "temperature",
                 "value": f"{temperature.tolist()}",
@@ -133,10 +131,31 @@ def sensor_500():
 
             # garbage collector 
             gc.collect()
+            
+            # def mid_value
+            if datetime.now().strftime('%Y-%m-%d') == "2023-11-24":
+                hour = datetime.now().strftime('%H')
+                temp_mid = 18 + (hour*0.055) + (cnt*0.000025)
+                moist_mid = 50 - (hour*0.21) - (cnt*0.00006)
+            
+            elif datetime.now().strftime('%Y-%m-%d') == "2023-11-25":
+                hour = datetime.now().strftime('%H')
+                temp_mid = 20 + (hour*0.025) + (cnt*0.0000125)
+                moist_mid = 45 - (hour*0.29) - (cnt*0.00008)
+
+            elif datetime.now().strftime('%Y-%m-%d') == "2023-11-26":
+                if cnt == 30:
+                    break
+                temp_mid = 35 + (cnt*5.67)
+                moist_mid = 35 - (cnt*1)
+            
+            else:
+                temp_mid = 18
+                moist_mid = 50
 
             # measurement
             measurement = []
-            temperature = random.randrange(15, 18) # for test: sensor data generator
+            temperature = round(random.uniform(temp_mid-0.5, temp_mid+0.5), 2) # for test: sensor data generator
             measurement.append({
                 "value_type": "temperature",
                 "value": temperature,
@@ -144,7 +163,7 @@ def sensor_500():
                 "cnt": 1,
                 "percentage": 0})
 
-            moisture = random.randrange(55, 60) # for test: sensor data generator
+            moisture = round(random.uniform(moist_mid-0.5, moist_mid+0.5), 2) # for test: sensor data generator
             measurement.append({
                 "value_type": "moisture",
                 "value": moisture,
@@ -204,10 +223,24 @@ def sensor_600():
 
             # garbage collector 
             gc.collect()
+            
+            # def max_value
+            if datetime.now().strftime('%Y-%m-%d') == "2023-11-24":
+                hour = datetime.now().strftime('%H')
+                mid_value = round(0.1 + (0.0125*hour) + (0.000055*cnt), 2)
+            
+            elif datetime.now().strftime('%Y-%m-%d') == "2023-11-25":
+                hour = datetime.now().strftime('%H')
+                mid_value = round(0.4 + (0.2*hour) + (0.00011*cnt), 2)
+
+            elif datetime.now().strftime('%Y-%m-%d') == "2023-11-26":
+                if cnt == 90:
+                    break
+                mid_value = round(1.5 + (0.0167*cnt), 2)
 
             # measurement
             measurement = []
-            CH4 = round(random.uniform(0, 1.0), 1) # for test: sensor data generator
+            CH4 = round(random.uniform(mid_value-0.01, mid_value+0.01), 2) # for test: sensor data generator
             measurement.append({
                 "value_type": "CH4",
                 "value": CH4,
