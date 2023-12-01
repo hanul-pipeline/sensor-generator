@@ -30,7 +30,9 @@ def create_dict_alert(dict_measurement, type_id, type_name, grade):
     # input values: type, grade
     dict_alert["type"] = {"id": type_id, "name": type_name}
     dict_alert["grade"] = grade
-
+    
+    del dict_alert['measurement']
+    
     return dict_alert
 
 
