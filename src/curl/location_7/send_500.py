@@ -22,6 +22,11 @@ uri_alert = config.get("FastAPI", "alert")
 url_alert = f"{uri_alert}/alert/7"
 
 for status in sensor_500():
-    send_curl_measurement(status=status, url=url_stream)
-    send_curl_alert(status=status, url=url_alert)
+    from threading import Thread
+    
+    thread_measurement = Thread(target=send_curl_measurement, args=(status, url_stream))
+    thread_alert = Thread(target=send_curl_alert, args=(status, url_alert))
+    
+    thread_measurement.start()
+    thread_alert.start()
     
