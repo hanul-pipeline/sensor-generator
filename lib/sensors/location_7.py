@@ -44,20 +44,16 @@ def sensor_100():
             measurement = []
             measurement_check = []
             
-            # def max_value
-            if datetime.now().strftime('%Y-%m-%d') == "2023-12-11":
-                hour = int(datetime.now().strftime('%H'))
-                mid_value = round(30 + (0.15*hour) + (0.000055*cnt), 2)
-            
-            elif datetime.now().strftime('%Y-%m-%d') == "2023-12-12":
-                hour = int(datetime.now().strftime('%H'))
-                mid_value = round(34 + (0.2*hour) + (0.00011*cnt), 2)
-
-            elif datetime.now().strftime('%Y-%m-%d') == "2023-12-13":
-                if cnt == 90:
-                    break
-                mid_value = round(200 + (7.8*cnt), 2)
-            
+            # def max_value         
+            if datetime.now().strftime('%Y-%m-%d') == "2023-12-13":
+                if datetime.now().strftime('%H') == "17":
+                    mid_value = round(30 + (0.001*cnt), 3)
+                elif datetime.now().strftime('%H') == "18":
+                    mid_value = round(34 + (0.004*cnt), 3)
+                elif datetime.now().strftime('%H') == "19":
+                    mid_value = round(75 + (8.28*cnt), 3)
+                    if cnt == 90:
+                        break
             else:
                 mid_value = 30
 
@@ -131,24 +127,19 @@ def sensor_500():
 
             # garbage collector 
             gc.collect()
-            
-            # def mid_value
-            if datetime.now().strftime('%Y-%m-%d') == "2023-12-11":
-                hour = int(datetime.now().strftime('%H'))
-                temp_mid = 18 + (hour*0.055) + (cnt*0.000025)
-                moist_mid = 50 - (hour*0.21) - (cnt*0.00006)
-            
-            elif datetime.now().strftime('%Y-%m-%d') == "2023-12-12":
-                hour = int(datetime.now().strftime('%H'))
-                temp_mid = 20 + (hour*0.025) + (cnt*0.0000125)
-                moist_mid = 45 - (hour*0.29) - (cnt*0.00008)
-
-            elif datetime.now().strftime('%Y-%m-%d') == "2023-12-13":
-                if cnt == 30:
-                    break
-                temp_mid = 35 + (cnt*5.67)
-                moist_mid = 35 - (cnt*1)
-            
+                
+            if datetime.now().strftime('%Y-%m-%d') == "2023-12-13":
+                if datetime.now().strftime('%H') == "17":
+                    temp_mid = 18 + (cnt*0.00005)
+                    moist_mid = 50 - (cnt*0.0014)
+                elif datetime.now().strftime('%H') == "18":
+                    temp_mid = 20 + (cnt*0.0042)
+                    moist_mid = 45 - (cnt*0.0028)
+                elif datetime.now().strftime('%H') == "19":
+                    temp_mid = 40 + (cnt*4.55)
+                    moist_mid = 35 - (cnt*0.33)
+                    if cnt == 90:
+                        break
             else:
                 temp_mid = 18
                 moist_mid = 50
@@ -224,22 +215,18 @@ def sensor_600():
             # garbage collector 
             gc.collect()
             
-            # def max_value
-            if datetime.now().strftime('%Y-%m-%d') == "2023-12-11":
-                hour = int(datetime.now().strftime('%H'))
-                mid_value = round(0.1 + (0.0125*hour) + (0.000055*cnt), 2)
-            
-            elif datetime.now().strftime('%Y-%m-%d') == "2023-12-12":
-                hour = int(datetime.now().strftime('%H'))
-                mid_value = round(0.4 + (0.2*hour) + (0.00011*cnt), 2)
-
-            elif datetime.now().strftime('%Y-%m-%d') == "2023-12-13":
-                if cnt == 90:
-                    break
-                mid_value = round(1.5 + (0.0167*cnt), 2)
-            
+            # def max_value              
+            if datetime.now().strftime('%Y-%m-%d') == "2023-12-13":
+                if datetime.now().strftime('%H') == "17":
+                    mid_value = round(0.1 + (0.00003*cnt), 4)
+                elif datetime.now().strftime('%H') == "18":
+                    mid_value = round(0.2 + (0.00003*cnt), 4)
+                elif datetime.now().strftime('%H') == "19":
+                    mid_value = round(0.8 + (0.028*cnt), 4)
+                    if cnt == 90:
+                        break
             else:
-                mid_value = 0.1
+                mid_value = 30
 
             # measurement
             measurement = []
